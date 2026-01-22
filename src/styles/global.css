@@ -1,0 +1,74 @@
+:root {
+  /* CSS Custom Properties - adjust as needed */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* === / === */
+/* Global Styles */
+:root {
+  --background-color: #eeeeee;
+  --text-color: #000000;
+  --link-color: #334488;
+}
+
+body {
+  margin: 0;
+  font-family: Times New Roman, serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Content Section Styles */
+.content {
+  text-align: center;
+}
+
+h1 {
+  font-family: system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 0 0 1rem;
+}
+
+p {
+  font-family: system-ui, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 0 0 1rem;
+}
+
+a.learn-more {
+  font-family: system-ui, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a.learn-more:hover {
+  text-decoration: underline;
+}
